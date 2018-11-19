@@ -1,6 +1,6 @@
 # DUNE-II-BATTLE-FOR-ARRAKIS
 
-Файлы игры и эмулятор. Игра в двух версиях в папке files.
+Файлы игры и эмулятор. Две версии игры в папке files.
 ```
 \files
 	dune-the-battle-for-arrakis-eng.gen - англ версия игры

@@ -1,16 +1,14 @@
 # DUNE-II-BATTLE-FOR-ARRAKIS
 
 Файлы игры и эмулятор
-Игра в двух версиях: Flash и JavaScript в папке files.
-js.html - js версия эмуляторв
-
+Игра в двух версиях в папке files.
 ```
 \files
 	dune-the-battle-for-arrakis-eng.gen - англ версия игры
 	dune-the-battle-for-arrakis-rus.gen - рус версия игры
 	Nesbox.swf - эмулятор (только для flash)
 ```
-
+js.html - js версия эмуляторв
 ```
 <!-- JS version -->
 	<link rel="stylesheet" href="//mem.neptunjs.xyz/neptun/css/neptun.css" type="text/css">

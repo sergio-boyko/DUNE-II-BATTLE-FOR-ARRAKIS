@@ -1,37 +1,9 @@
-# DUNE-II-BATTLE-FOR-ARRAKIS
-
-Файлы игры и эмулятор
-Игра в двух версиях: Flash и JavaScript в папке files.
-js.html - js версия эмуляторв
-
-```
-\files
-	dune-the-battle-for-arrakis-eng.gen - англ версия игры
-	dune-the-battle-for-arrakis-rus.gen - рус версия игры
-	Nesbox.swf - эмулятор (только для flash)
-```
-
-```
-<!-- JS version -->
-	<link rel="stylesheet" href="//mem.neptunjs.xyz/neptun/css/neptun.css" type="text/css">
-	<div id="emu" style="width: 300;"></div>
-	<script> 
-			var NepDefCon = '1';			 
-			var NepPlayer = "#emu";			 
-			var NepEmu = "sega";			 
-			var NepZoom = "enable";			 
-			var NepMaxWidth = "100%";			 
-			var NepAutoStart = true;			 
-			var NepLang = "rus";			 
-			var gameUrl = "flash/dune-the-battle-for-arrakis-rus.gen";			 
-			var SaveTitle = "dune-the-battle-for-arrakis";
-	</script>
-
-	<script src="https://mem.neptunjs.com/njs/njsLoader.js" type="text/javascript"></script>
-	<!--/ JS version -->
-```
-flash.html - flash версия эмулятора
-```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flash emulation</title>	
+</head>
+<body>
 <!-- Flash version -->
 <object type="application/x-shockwave-flash" data="flash/Nesbox.swf" width="640" height="480" id="emulator" style="visibility: visible; width: 640px; height: 448px;"><param name="allowscriptaccess" value="sameDomain"><param name="allowFullScreen" value="true"><param name="allowFullScreenInteractive" value="true"><param name="flashvars" value="dune-the-battle-for-arrakis.gen"></object>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
@@ -62,4 +34,6 @@ flash.html - flash версия эмулятора
 	});
 </script>
 <!--/ Flash version -->
-```
+</body>
+</html>
+
